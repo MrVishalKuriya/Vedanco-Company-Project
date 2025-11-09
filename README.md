@@ -1,5 +1,10 @@
 # INTERNSHIP PROJECT REPORT
 
+> **GitHub Repository Information**  
+> Repository Name: Vedanco-Company-Project  
+> Owner: MrVishalKuriya  
+> Branch: Vishal7342
+
 ## On
 
 # DESIGN AND DEVELOPMENT OF VEDANCO.COM MULTI-DIVISION ENTERPRISE WEBSITE
