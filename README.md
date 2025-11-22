@@ -21,7 +21,7 @@
 
 ## KURIYA VISHAL
 
-**Enrollment Number:** [Your Enrollment Number]
+**Enrollment Number:** [Yo
 
 ---
 
@@ -30,8 +30,6 @@
 **[Industry Mentor Name]**  
 [Designation]  
 Vedanco.com
-
----
 
 ### Submitted to
 
