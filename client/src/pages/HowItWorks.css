@@ -1,0 +1,131 @@
+.how-it-works-hero {
+    background-color: var(--bg-light);
+    padding-bottom: 4rem;
+}
+
+.page-title {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.steps-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 2px;
+    background-color: var(--border);
+    z-index: 0;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+    position: relative;
+    z-index: 1;
+    border: 1px solid var(--border);
+    transition: var(--transition-smooth);
+}
+
+.step-item:hover {
+    transform: translateX(10px);
+    box-shadow: var(--shadow-medium);
+    border-color: var(--primary-color);
+}
+
+.step-number {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--bg-light);
+    line-height: 1;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.step-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background-color: var(--bg-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 2px solid var(--primary-color);
+    z-index: 1;
+}
+
+.step-icon {
+    font-size: 1.8rem;
+}
+
+.step-content {
+    flex: 1;
+    z-index: 1;
+}
+
+.step-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.step-description {
+    color: var(--text-dark);
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .steps-container::before {
+        left: 30px;
+    }
+
+    .step-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding-left: 5rem;
+    }
+
+    .step-icon-wrapper {
+        position: absolute;
+        left: 1rem;
+        top: 2rem;
+    }
+
+    .step-number {
+        font-size: 3rem;
+        top: 1rem;
+        right: 1rem;
+    }
+}
